@@ -1,0 +1,41 @@
+{
+	"name": "Javadoc Filter",
+	"version": "1.2",
+	"description": "javadocのクラス一覧をフィルタリングします。",
+	"icons": {
+		"16": "icon-16.png",
+		"48": "icon-48.png",
+		"128": "icon-128.png"
+	},
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
+	"permissions": [
+		"tabs"
+	],
+	"browser_action": {
+		"default_icon": {
+			"19": "icon-19.png",
+			"38": "icon-38.png"
+		},
+		"default_title": "Javadoc Filter"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"http://*/*allclasses-frame.html",
+				"https://*/*allclasses-frame.html",
+				"file:///*/*allclasses-frame.html"
+			],
+			"all_frames": true,
+			"js": [
+				"jquery.js",
+				"javadoc-filter-core.js"
+			]
+		}
+	],
+	"update_url": "http://junk-box.appspot.com/appdocs/java/updates.xml",
+	"manifest_version": 2
+}
