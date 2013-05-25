@@ -1,6 +1,6 @@
 {
 	"name": "Javadoc Filter",
-	"version": "1.2",
+	"version": "1.4",
 	"description": "javadocのクラス一覧をフィルタリングします。",
 	"icons": {
 		"16": "icon-16.png",
@@ -26,8 +26,11 @@
 		{
 			"matches": [
 				"http://*/*allclasses-frame.html",
+				"http://*/*allclasses-frame",
 				"https://*/*allclasses-frame.html",
-				"file:///*/*allclasses-frame.html"
+				"https://*/*allclasses-frame",
+				"file:///*/*allclasses-frame.html",
+				"file:///*/*allclasses-frame"
 			],
 			"all_frames": true,
 			"js": [
