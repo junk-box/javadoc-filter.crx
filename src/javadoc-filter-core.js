@@ -1,17 +1,17 @@
 /*
- * JavaDoc Filter v1.4
+ * JavaDoc Filter v1.4.1
  * http://junk-box.appspot.com/appdocs/java/chromeEx.html
  * 
  * Copyright (C) 2012 S.Ishigaki
  * Licensed under the MIT license
  * http://www.opensource.org/licenses/mit-license.php
  * 
- * Date: 2013-5-26
+ * Date: 2013-6-3
  */
 (function() {
 
 var
-	version = "1.4",
+	version = "1.4.1",
 
 	defaultStr = "フィルター",
 
@@ -162,6 +162,8 @@ var
 		filter = f;
 		divAll = $(document.body).find("#classListAll");
 		divList = $(document.body).find("#classList");
+
+		filter.focus();
 	},
 
 	filtering = function(filterStr) {
