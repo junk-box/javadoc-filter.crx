@@ -16,6 +16,8 @@ javadocのクラス一覧をフィルタリングするGoogle Chrome 拡張で�
 
 Javadoc Filterをインストールすると右上にボタンが追加されます。
 
+<img src="http://junk-box.appspot.com/appdocs/java/img/ssEx.png">
+
 使用方法
 --------
 

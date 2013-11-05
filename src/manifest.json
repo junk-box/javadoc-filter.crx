@@ -1,6 +1,6 @@
 {
 	"name": "Javadoc Filter",
-	"version": "1.4.1",
+	"version": "1.5",
 	"description": "javadocのクラス一覧をフィルタリングします。",
 	"icons": {
 		"16": "icon-16.png",
