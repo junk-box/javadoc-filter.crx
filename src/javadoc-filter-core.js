@@ -1,6 +1,6 @@
 /*
  * JavaDoc Filter v1.5
- * http://junk-box.appspot.com/appdocs/java/chromeEx.html
+ * https://github.com/junk-box/javadoc-filter.crx
  * 
  * Copyright (C) 2012 S.Ishigaki
  * Licensed under the MIT license

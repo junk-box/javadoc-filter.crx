@@ -39,6 +39,6 @@
 			]
 		}
 	],
-	"update_url": "http://junk-box.appspot.com/appdocs/java/updates.xml",
+	"update_url": "http://junk-box.github.io/javadoc-filter.crx/updates.xml",
 	"manifest_version": 2
 }
