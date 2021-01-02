@@ -1,6 +1,6 @@
 /*
  * JavaDoc Filter v1.5
- * https://github.com/junk-box/javadoc-filter.crx
+ * https://junk-box.github.io/javadoc-filter.crx/index.html
  * 
  * Copyright (C) 2012 S.Ishigaki
  * Licensed under the MIT license
